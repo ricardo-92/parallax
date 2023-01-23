@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.bloque{
+    max-width: 960px; /* ocupa el tamaño máximo de la ventana */
+    margin: 0 auto;
+}
+
+.bloque h1{
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(19, 58, 59);
+    line-height: 3;
+}
+
+.bloque h2{
+    font-size: 24px;
+    color: rgb(235, 235, 235);
+}
+
+.bloque p{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 50px;
+    color: rgb(235, 235, 235);
+}
+
+.bloque.parallax{
+    height: 650px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.parallax.supra{
+    background-image: url(/assets/img/kartik-bhattacharjee-vw0AmpZvHZg-unsplash.jpg);
+}
+
+.parallax.gtr{
+    background-image: url(/assets/img/ralfs-blumbergs--EXF9shcTO0-unsplash.jpg);
+}
+
+.parallax.rx7{
+    background-image: url(/assets/img/trevor-buntin-cHUAjOFi8Ow-unsplash.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
